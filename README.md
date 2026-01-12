@@ -14,6 +14,7 @@ Isolation Forest Model:
 Configuration: Optimal parameters: n_estimators=200, contamination=0.01, max_features=1.0.
 Detection: Identified 450 anomalies (approx. 1% of test data).
 Characteristics: Top anomalies had very low scores (high isolation) and often involved specific AccountIDs (8, 9, 10), occurred in Los Angeles, and happened late at night during the latter months of the year.
+
 Insights & Next Steps
 
 Consolidated View: The models identified different sets of anomalies, suggesting they capture different types of irregularities (density-based vs. isolation-based). Combining these insights offers a more robust detection system.
